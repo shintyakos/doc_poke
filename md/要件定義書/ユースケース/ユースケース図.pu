@@ -1,0 +1,94 @@
+@startuml
+
+!define RECTANGLE class
+
+actor ユーザー
+
+usecase "新規登録" as UC1
+usecase "ログイン" as UC2
+usecase "ログアウト" as UC3
+
+usecase "デッキの新規登録" as UC4
+usecase "デッキの編集" as UC5
+usecase "デッキの削除" as UC6
+usecase "デッキの一覧表示" as UC7
+
+usecase "対戦相手の新規登録" as UC8
+usecase "対戦相手の編集" as UC9
+usecase "対戦相手の削除" as UC10
+usecase "対戦相手の一覧表示" as UC11
+
+usecase "対戦の新規記録開始" as UC12
+usecase "先攻・後攻の記録" as UC13
+usecase "ターン開始の記録" as UC14
+usecase "ターン終了の記録" as UC15
+usecase "サポートカードの使用記録" as UC16
+usecase "エネルギーカードの使用記録" as UC17
+usecase "勝敗の記録" as UC18
+usecase "対戦記録の保存" as UC19
+
+usecase "対戦履歴の一覧表示" as UC20
+usecase "対戦詳細の表示" as UC21
+usecase "各ターンの経過時間表示" as UC22
+
+usecase "ターン時間の分析" as UC23
+usecase "勝率の分析" as UC24
+
+usecase "リマインダー通知設定" as UC25
+usecase "通知の受信" as UC26
+
+usecase "クラウドバックアップ" as UC27
+usecase "デバイス間同期" as UC28
+
+usecase "ダッシュボード表示" as UC29
+usecase "ナビゲーション" as UC30
+
+usecase "フォーラムの利用" as UC31
+usecase "戦略やデッキの共有" as UC32
+usecase "イベントやトーナメントのディスカッション" as UC33
+
+ユーザー --> UC1
+ユーザー --> UC2
+ユーザー --> UC3
+
+ユーザー --> UC4
+ユーザー --> UC5
+ユーザー --> UC6
+ユーザー --> UC7
+
+ユーザー --> UC8
+ユーザー --> UC9
+ユーザー --> UC10
+ユーザー --> UC11
+
+ユーザー --> UC12
+ユーザー --> UC13
+ユーザー --> UC14
+ユーザー --> UC15
+ユーザー --> UC16
+ユーザー --> UC17
+ユーザー --> UC18
+ユーザー --> UC19
+
+ユーザー --> UC20
+ユーザー --> UC21
+ユーザー --> UC22
+
+ユーザー --> UC23
+ユーザー --> UC24
+
+ユーザー --> UC25
+ユーザー --> UC26
+
+ユーザー --> UC27
+ユーザー --> UC28
+
+ユーザー --> UC29
+ユーザー --> UC30
+
+ユーザー --> UC31
+ユーザー --> UC32
+ユーザー --> UC33
+
+
+@enduml
