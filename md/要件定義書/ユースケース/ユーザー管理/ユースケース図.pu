@@ -1,0 +1,15 @@
+@startuml
+
+actor ユーザー
+
+rectangle "ユーザー管理" {
+  usecase "新規登録" as UC1
+  usecase "ログイン" as UC2
+  usecase "ログアウト" as UC3
+}
+
+ユーザー --> UC1
+ユーザー --> UC2
+ユーザー --> UC3
+
+@enduml
